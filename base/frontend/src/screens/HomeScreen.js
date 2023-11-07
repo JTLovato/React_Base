@@ -3,9 +3,9 @@ import axios from "axios";
 import logger from "use-reducer-logger";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Product from "../componants/Product.js";
-import LoadingBox from "../componants/LoadingBox.js";
-import MessageBox from "../componants/MessageBox.js";
+import Product from "../components/Product";
+import LoadingBox from "../components/LoadingBox";
+import MessageBox from "../components/MessageBox";
 
 const reducer = (state, action) => {
   switch (action.type) {
