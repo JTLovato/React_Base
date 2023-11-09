@@ -1,23 +1,16 @@
 {
-  "name": "base",
+  "name": "amazona",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "21.1.0"
-  },
   "scripts": {
-    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
-    "start": "node backend/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd backend && npm install && cd ../frontend && npm -f install & npm run build",
+    "start": "node backend/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/mern-amazona.git"
+    "url": "git+https://github.com/jtlovato/baseTest.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/basir/mern-amazona/issues"
-  },
-  "homepage": "https://github.com/basir/mern-amazona#readme"
+  "license": "ISC"
 }
