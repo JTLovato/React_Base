@@ -1,5 +1,5 @@
 {
-  "name": "amazona",
+  "name": "base",
   "version": "1.0.0",
   "description": "# Lessons",
   "main": "index.js",
@@ -10,11 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jtlovato/baseTest.git"
+    "url": "git+https://github.com/basir/mern-amazona.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "nodejs": "^0.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/basir/mern-amazona/issues"
+  },
+  "homepage": "https://github.com/basir/mern-amazona#readme"
 }
