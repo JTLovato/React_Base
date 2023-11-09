@@ -1,10 +1,9 @@
 {
-  "name": "baseTest",
+  "name": "basetest",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd backend && npm install && cd ../frontend && npm -f install & npm run build",
+    "build": "cd backend && npm install && cd ../frontend && npm install & npm run build",
     "start": "node backend/server.js"
   },
   "repository": {
@@ -12,5 +11,11 @@
     "url": "git+https://github.com/jtlovato/baseTest.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtlovato/baseTest/issues"
+  },
+  "homepage": "https://github.com/jtlovato/baseTest#readme",
+  "devDependencies": {},
+  "description": ""
 }
