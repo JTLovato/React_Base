@@ -1,9 +1,21 @@
 {
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+  "name": "basetest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install & npm run build",
+    "start": "node backend/server.js"
   },
-  "dependencies": {
-    "mongodb": "^6.2.0",
-    "use-reducer-logger": "^1.0.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtlovato/baseTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtlovato/baseTest/issues"
+  },
+  "homepage": "https://github.com/jtlovato/baseTest#readme",
+  "devDependencies": {},
+  "description": ""
 }
