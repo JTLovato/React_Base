@@ -13,5 +13,8 @@
     "url": "git+https://github.com/jtlovato/baseTest.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodejs": "^0.0.0"
+  }
 }
